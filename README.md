@@ -45,13 +45,13 @@ Project ini dibuat untuk:
 pip install -r requirements.txt
 py main.py
 
-## Screenshots
+# Screenshots
 
-### Open Hand
+# Open Hand
 ![Open Hand](screenshots/open-hand.png)
 
-### Peace
+# Peace
 ![Peace](screenshots/peace.png)
 
-### Thumbs Up
+# Thumbs Up
 ![Thumbs Up](screenshots/thumbs-up.png)
