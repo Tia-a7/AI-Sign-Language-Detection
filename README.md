@@ -10,7 +10,6 @@ Project ini dibuat untuk:
 - Mempelajari implementasi Computer Vision
 - Mengembangkan sistem deteksi gesture tangan secara real-time
 - Mengimplementasikan MediaPipe dan OpenCV pada aplikasi AI sederhana
-- Mengembangkan project portfolio di bidang Artificial Intelligence
 
 ---
 
