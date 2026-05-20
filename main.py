@@ -1,6 +1,3 @@
-import streamlit as st
-from turtle import st
-
 import cv2
 import mediapipe as mp
 
@@ -15,7 +12,8 @@ hands = mp_hands.Hands(
 )
 
 # Open webcam
-streamlit-webrtc
+camera = cv2.VideoCapture(0)
+
 
 def detect_gesture(hand_landmarks, hand_label):
 
@@ -57,7 +55,7 @@ def detect_gesture(hand_landmarks, hand_label):
         return "PEACE"
 
     elif finger_status == [0, 1, 0, 0, 0]:
-        return "FIRST"
+        return "POINTING"
 
     elif finger_status == [1, 1, 0, 0, 1]:
         return "ROCK"
@@ -127,7 +125,7 @@ while True:
             )
 
     # Show webcam
-    st.image(frame, channels="BGR")
+    cv2.imshow("AI Sign Language Detection", frame)
 
     # Press Q to exit
     if cv2.waitKey(1) & 0xFF == ord("q"):

@@ -1,43 +1,45 @@
 # AI-Based Sign Language Detection System
 
-Project ini merupakan aplikasi Computer Vision berbasis Python untuk mendeteksi dan mengenali gesture tangan secara real-time menggunakan webcam.
+Sistem Computer Vision berbasis Python yang mampu mendeteksi dan mengenali gesture tangan secara real-time menggunakan webcam, MediaPipe, dan OpenCV.
 
 ---
 
-## Tujuan Project
+## Project Objective
 
 Project ini dibuat untuk:
-- Mempelajari implementasi Computer Vision
+- Mempelajari implementasi Computer Vision dalam AI
 - Mengembangkan sistem deteksi gesture tangan secara real-time
-- Mengimplementasikan MediaPipe dan OpenCV pada aplikasi AI sederhana
+- Mengintegrasikan MediaPipe untuk hand tracking
+- Membangun logic recognition berbasis landmark tangan
 
 ---
 
-## Fitur Utama
+## Features
 
-- Deteksi tangan secara real-time menggunakan webcam
-- Tracking landmark tangan menggunakan MediaPipe
-- Pengenalan gesture tangan otomatis
-- Deteksi beberapa gesture seperti:
-  - FIST
-  - OPEN HAND
-  - PEACE
-  - POINTING
-  - ROCK
-  - YES (Thumbs Up)
-- Tampilan hasil deteksi secara langsung pada layar
+- Real-time hand detection menggunakan webcam
+- Hand landmark tracking menggunakan MediaPipe
+- Gesture recognition berbasis rule-based system
+- Deteksi gesture:
+  - ✊ FIST
+  - ✋ OPEN HAND
+  - ✌️ PEACE
+  - ☝️ POINTING
+  - 🤘 ROCK
+  - 👍 YES (Thumbs Up)
+- Visual output langsung di layar (live feedback)
 
 ---
 
-## Teknologi
+## Tech Stack
 
 - Python
 - OpenCV
 - MediaPipe
+- NumPy
 
 ---
 
-## Cara Menjalankan
+## How to Run
 
 ```bash
 pip install -r requirements.txt
